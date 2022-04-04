@@ -58,6 +58,15 @@ li{
     }
 }
 
+#frame{
+	position: relative;
+	top: -5%;
+	margin: 0 auto;
+	height: 26em;
+	width: 60em;
+	background-color :rgba(255, 255, 255, 0.5);
+}
+
 #bar{
 	background: rgba(0, 0, 0, 0.8);
 	width: 100%;
@@ -65,6 +74,7 @@ li{
 }
 
 #top_menu{
+	display: inline-block;
 	display: flex;
 	width: 70%;
 	margin: auto;
@@ -75,22 +85,12 @@ li{
 	list-style: none;
 }
 
-/*
-#home_text{
-	position: relative;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-*/
-
 #slogan{
+	font: 700 1.2em/1 "Noto Sans CJK TC",Medium;
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	display: inline-block;
-	border: 4px double rgba(0, 0, 0, 0.8);
+	border-bottom: 4px double rgba(0, 0, 0, 0.8);
 	border-width: 4px 0;
 	padding: 1.5em 0em;
 	position: absolute;
@@ -110,19 +110,19 @@ li{
 
 /* Clip Background Image */
 
-	  background: url(animated-text-fill2.png) repeat-y;
-	  -webkit-background-clip: text;
-	  background-clip: text;
+	 background: url(animated-text-fill6.png) repeat-y;
+	 -webkit-background-clip: text;
+	 background-clip: text;
 
 /* Animate Background Image */
 
-	  -webkit-text-fill-color: transparent;
-	  -webkit-animation: aitf 80s linear infinite;
+	 -webkit-text-fill-color: transparent;
+	 -webkit-animation: aitf 80s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
-	  -webkit-transform: translate3d(0,0,0);
-	  -webkit-backface-visibility: hidden;
+	 -webkit-transform: translate3d(0,0,0);
+	 -webkit-backface-visibility: hidden;
 }
 
 /* Animate Background Image */
