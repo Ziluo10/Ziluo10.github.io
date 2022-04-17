@@ -4,7 +4,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
- 	background-image: url("wusuo.jpg");
+ 	background-image: url("../Picture/wusuo.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 28%;
@@ -110,7 +110,7 @@ li{
 
 /* Clip Background Image */
 
-	 background: url(animated-text-fill6.png) repeat-y;
+	 background: url("../Picture/animated-text-fill/animated-text-fill6.png") repeat-y;
 	 -webkit-background-clip: text;
 	 background-clip: text;
 

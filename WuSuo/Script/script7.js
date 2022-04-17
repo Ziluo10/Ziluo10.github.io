@@ -1,6 +1,5 @@
-// JavaScript Document
 var home_1 = document.getElementById("home-1");
 
 home_1.addEventListener("click", function(){
-						window.location.href='1.html';
+						window.open("https://www.instagram.com/wusuo_market/","_blank")
 						})

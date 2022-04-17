@@ -21,7 +21,6 @@ b_right.addEventListener("click", function(){
 function showSlide(n)
 {
 	is_click = true;
-	console.log("hi");
 	index = index + n;
 	
 	if(index == 0)
@@ -43,7 +42,6 @@ function autoShow()
 	if(is_click == false)
 	{
 		speed = 5000;
-		console.log("ha");
 		index = index + 1;
 
 		if(index == 0)
